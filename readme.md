@@ -153,39 +153,6 @@ npm run dev
 
 ---
 
-## 🧩 Supported Field Types
-
-Currently supported basic text inputs:
-
-| Field Type | Renders As |
-|------------|------------|
-| **Short Text** | Text input |
-| **Long Text** | Textarea |
-| **Others** | Text input (Basic support) |
-
-❌ **Not Fully Supported:** Attachments, Select, Multi-Select (Rendered as text inputs currently)
-
----
-
-## ⚙️ Conditional Logic Examples (Planned)
-
-*This feature is currently in development.*
-
-### **Simple Condition**
-```
-Show "Dietary Restrictions" 
-IF "Attending Lunch?" = "Yes"
-```
-
----
-
-## 🔄 How Webhooks Work (Planned)
-
-*This feature is currently in development.*
-
-### **Setup (One-time)**
-1. Register your webhook URL with Airtable
-2. Point to: `https://yourdomain.com/webhooks/airtable`
 
 ---
 
@@ -219,32 +186,6 @@ airtable-form-builder/
 
 ---
 
-## 🧪 Testing
-
-### **Run Tests**
-```bash
-# Backend tests
-cd server
-npm test
-
-# Frontend tests
-cd client
-npm test
-```
-
-
-## 🚀 Deployment
-
-### **Backend (Railway/Render/Heroku)**
-1. Set environment variables
-2. Deploy from GitHub repo
-3. Note the backend URL
-
-### **Frontend (Vercel/Netlify)**
-1. Update `VITE_API_URL` to production backend URL
-2. Deploy from GitHub repo
-
----
 
 ## 📝 API Endpoints
 
@@ -267,28 +208,7 @@ npm test
 
 ---
 
-## 🐛 Troubleshooting
 
-### **OAuth Issues**
-- Verify `AIRTABLE_REDIRECT_URI` matches Airtable OAuth app settings
-- Check that client ID and secret are correct
-
-### **Form Not Saving**
-- Check MongoDB connection
-- Verify JWT token is valid
-- Check browser console for errors
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
 
 ## 📄 License
 
